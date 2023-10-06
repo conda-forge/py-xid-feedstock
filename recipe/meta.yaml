@@ -1,5 +1,5 @@
 {% set name = "py-xid" %}
-{% set version = "0.3.0" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/py-xid-{{ version }}.tar.gz
-  sha256: e46753fd472a2ab81f1e7e88ba400548879689d263f9450eca0c6dd830da0be4
+  sha256: 82e5bbdab92d104fcc2bcb95a169ecaf126e72f838f0da6900efd9a1323ed05f
 
 build:
   number: 0
